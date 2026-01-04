@@ -1,0 +1,28 @@
+# Core LangChain dependencies
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-text-splitters==0.2.1
+
+# Embeddings and vector store
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+huggingface-hub==0.23.4
+
+# LLM providers
+ollama==0.2.1
+
+# OpenAI (optional - uncomment if using OpenAI)
+# openai==1.35.3
+# langchain-openai==0.1.8
+
+# UI Framework
+streamlit==1.35.0
+
+# Utilities
+numpy==1.26.4
+python-dotenv==1.0.1
+watchdog==4.0.1  # For file monitoring
+
+# Additional useful libraries
+pandas==2.2.2  # For data handling
+Pillow==10.3.0  # For image processing if needed
